@@ -1,0 +1,4 @@
+192.168.0.6 - - [08/Jan/2026:12:03:12 -0300] "GET /favicon.ico HTTP/1.1" 404 490 "http://192.168.0.4/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+192.168.0.6 - - [08/Jan/2026:12:03:26 -0300] "GET /site-backend/index.php HTTP/1.1" 404 490 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+192.168.0.6 - - [08/Jan/2026:17:58:35 -0300] "GET / HTTP/1.1" 200 3383 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+192.168.0.6 - - [08/Jan/2026:18:00:09 -0300] "GET /site-frontend/index.php HTTP/1.1" 404 490 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"

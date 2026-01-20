@@ -1,0 +1,139 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+    padding: 40px;
+}
+
+/* TÍTULOS */
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+    color: #34495e;
+}
+
+/* LINKS */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* BOTÕES */
+button,
+.btn {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover,
+.btn:hover {
+    background: #2980b9;
+}
+
+/* LINKS COMO BOTÃO */
+a.btn {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/* FORMULÁRIOS */
+form {
+    background: white;
+    padding: 25px;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* TABELA */
+table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+}
+
+th {
+    background: #2c3e50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+    background: #f1f1f1;
+}
+
+/* MENU ADMIN (index.php do backend) */
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    display: inline-block;
+    background: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.delete{
+   color: red;
+}
+
+/* ALERTAS JS */
+script {
+    font-family: inherit;
+}

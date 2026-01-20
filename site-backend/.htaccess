@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Area Administrativa - Loja Lucena"
+AuthUserFile /var/www/site-backend/.htpasswd
+Require valid-user
+
